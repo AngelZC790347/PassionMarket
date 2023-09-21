@@ -32,6 +32,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'users.apps.UsersConfig',
+    'matches.apps.MatchesConfig',
+    'chats.apps.ChatsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -84,7 +86,7 @@ REST_FRAMEWORK = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'PASSWORD':"angel790347",
+        'PASSWORD':"",
         "NAME": "PassionMarket",
         'USER': 'root',
         'HOST':'localhost',
